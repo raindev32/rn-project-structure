@@ -1,5 +1,7 @@
 # rn-project-structure
-<p>test</p>
+<p>
+This project for helping you for management your developing time and keep productivity.
+</p>
 
 Fitur Auth include API Swagger
 - Login
