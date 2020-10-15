@@ -10,6 +10,7 @@ Fitur available at this project
 - Reactotron for Debugging
 - React redux
 - One Signal
+- Impagination
 - etc.
 
 HOW TO USE :
