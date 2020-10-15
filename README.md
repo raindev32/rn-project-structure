@@ -4,10 +4,11 @@ This project for helping you for management your developing time and keep produc
 </p>
 
 Fitur Auth include API Swagger
-- Login
+- Login from API, Google, Facebook
 - Register
 - Logout
-etc.
+- Reactotron for Debugging
+- etc.
 
 HOW TO USE :
 - add your local.properties
