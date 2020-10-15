@@ -9,6 +9,6 @@ etc.
 HOW TO USE :
 - add your local.properties
 - npm / yarn install
-- kedalam dir android => ./gradlew clean
-- kemudian build debug version => ./gradlew installDebug
-- Jika ingin build release version => ./gradlew installRelease
+- into dir android => ./gradlew clean
+- next build for debug version => ./gradlew installDebug
+- next build for release version => ./gradlew installRelease
