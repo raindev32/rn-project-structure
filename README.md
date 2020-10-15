@@ -1,17 +1,17 @@
 # rn-project-structure
 
-=========================================
+==============================
 Fitur Auth include API Swagger
-=========================================
+==============================
 - Login
 - Register
 - Logout
 etc.
 
 
-=========================================
+=============================
 HOW TO USE :
-=========================================
+=============================
 - add your local.properties
 - npm / yarn install
 - kedalam dir android => ./gradlew clean
