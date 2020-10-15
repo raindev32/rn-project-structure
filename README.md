@@ -9,6 +9,7 @@ Fitur available at this project
 - Logout
 - Reactotron for Debugging
 - React redux
+- One Signal
 - etc.
 
 HOW TO USE :
