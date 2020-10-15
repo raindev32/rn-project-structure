@@ -11,10 +11,18 @@ Fitur available at this project
 - React redux
 - One Signal
 - Impagination
+- Support Axios for consuming API
+- Permissions Storage and camera
+- Using camera for take a picture
+- Get galleries photo in storage
+- Full components already using
+- Transaction module
+- Full module into utils
 - etc.
 
 HOW TO USE :
 - add your local.properties
+- add your .env
 - npm / yarn install
 - into dir android => ./gradlew clean
 - next build for debug version => ./gradlew installDebug
