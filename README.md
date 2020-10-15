@@ -3,11 +3,12 @@
 This project for helping you for management your developing time and keep productivity.
 </p>
 
-Fitur Auth include API Swagger
+Fitur available at this project
 - Login from API, Google, Facebook
 - Register
 - Logout
 - Reactotron for Debugging
+- React redux
 - etc.
 
 HOW TO USE :
