@@ -27,3 +27,5 @@ HOW TO USE :
 - into dir android => ./gradlew clean
 - next build for debug version => ./gradlew installDebug
 - next build for release version => ./gradlew installRelease
+
+*note: file google-service.json bisa diganti dengan file sendiri yang digenerate.
