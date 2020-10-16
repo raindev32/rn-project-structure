@@ -21,6 +21,7 @@ Fitur available at this project
 - etc.
 
 HOW TO USE :
+- Git Pull
 - add your local.properties
 - add your .env
 - npm / yarn install
