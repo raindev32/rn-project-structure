@@ -29,4 +29,4 @@ HOW TO USE :
 - next build for debug version => ./gradlew installDebug
 - next build for release version => ./gradlew installRelease
 
-*note: file google-service.json bisa diganti dengan file sendiri yang digenerate.
+*note: file google-service.json can be changed by your own generated files.
