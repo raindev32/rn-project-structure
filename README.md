@@ -17,6 +17,7 @@ Fitur available at this project
 - Get galleries photo in storage
 - Full components already using
 - Transaction module
+- Local transaction module
 - Full module into utils
 - etc.
 
