@@ -1,6 +1,8 @@
 import React, { PureComponent } from 'react'
+
 import color from 'theme/color'
-import NotificationList from './NotificationList'
+
+import Container from './Container'
 
 class Notification extends PureComponent {
   static navigationOptions = () => {
@@ -35,7 +37,7 @@ class Notification extends PureComponent {
 
   render () {
     return (
-      <NotificationList />
+      <Container />
     )
   }
 }

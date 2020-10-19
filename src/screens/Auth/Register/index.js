@@ -1,14 +1,12 @@
 import React, { Component } from 'react'
 import {
   View,
-  StyleSheet,
-  ScrollView
+  StyleSheet
 } from 'react-native'
-import { Text } from 'native-base'
+
 import color from 'theme/color'
-import globalStyle from 'theme/style'
-import Form from './Form'
-import ButtonBottom from './ButtonBottom'
+
+import Container from './Container'
 
 const styles = StyleSheet.create({
   container: {
@@ -57,17 +55,7 @@ class Register extends Component {
     const { navigation } = this.props
 
     return (
-      <View style={styles.container}>
-        <View style={globalStyle.padDefault}>
-          <ScrollView
-            showsVerticalScrollIndicator={false}
-          >
-            <Text style={styles.txtRegister}>Register Your New Account</Text>
-            <Form />
-            <ButtonBottom navigation={navigation} />
-          </ScrollView>
-        </View>
-      </View>
+      <Container />
     )
   }
 }

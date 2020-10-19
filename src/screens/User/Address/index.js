@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
-import { View, StyleSheet } from 'react-native'
+import { StyleSheet } from 'react-native'
 import color from 'theme/color'
-import globalStyle from 'theme/style'
-import AddressList from './AddressList'
+
+import Container from './Container'
 
 const styles = StyleSheet.create({
   container: {
@@ -50,9 +50,7 @@ class Address extends Component {
     const { navigation } = this.props
 
     return (
-      <View style={[styles.container, globalStyle.padDefault]}>
-        <AddressList navigation={navigation} />
-      </View>
+      <Container />
     )
   }
 }

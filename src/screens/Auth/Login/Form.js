@@ -78,16 +78,16 @@ class Form extends Component {
     isLoading: false
   }
 
-  onSubmit = async (values) => {
-    const { onSubmit, error, navigation } = this.props
+  onSubmit =  async (values) => {
+    const { error, navigation, dispatch } = this.props
     if (!error) {
-      await onSubmit(values, navigation)
+      await dispatch(submit(values, navigation))
     }
   }
 
   refreshUser = async () => {
-    const { getUserData } = this.props
-    await getUserData()
+    const { dispatch } = this.props
+    await dispatch(userData())
   }
 
   loginFacebook = async () => {
@@ -226,12 +226,7 @@ const mapStateToProps = state => ({
   errorMessage: state.authStore.errorMessage
 })
 
-const mapDispatchToProps = dispatch => ({
-  getUserData: () => dispatch(userData()),
-  onSubmit: (data, navigation) => dispatch(submit(data, navigation))
-})
-
 export default reduxForm({
   form: 'LoginForm',
   validate
-})(connect(mapStateToProps, mapDispatchToProps)(Form))
+})(connect(mapStateToProps)(Form))

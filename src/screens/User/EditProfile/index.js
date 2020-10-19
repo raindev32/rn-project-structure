@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 import color from 'theme/color'
 
-import ProfileList from './ProfileList'
+import Container from './Container'
 
 class EditProfile extends Component {
   static navigationOptions = () => {
-    let headerTitle = null
+    let headerTitle = 'Edit Profile'
     let headerTitleStyle = {
       fontSize: 20,
       color: color.primaryColor,
@@ -38,7 +38,7 @@ class EditProfile extends Component {
 
   render () {
     return (
-      <ProfileList />
+      <Container />
     )
   }
 }

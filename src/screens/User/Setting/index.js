@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
-import { View } from 'react-native'
+
 import color from 'theme/color'
-import globalStyle from 'theme/style'
-import SettingList from './SettingList'
+
+import Container from './Container'
 
 class Setting extends Component {
   static navigationOptions = () => {
@@ -40,9 +40,7 @@ class Setting extends Component {
 
   render () {
     return (
-      <View style={globalStyle.padDefault}>
-        <SettingList />
-      </View>
+        <Container />
     )
   }
 }

@@ -51,7 +51,6 @@ class ProfileList extends Component {
             />
           )}
         >
-          <HeaderTitle title="Edit Profile" />
           <Form />
         </ScrollView>
       </View>
