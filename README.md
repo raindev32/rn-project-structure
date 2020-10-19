@@ -15,6 +15,7 @@ Fitur available at this project
 - Permissions Storage and camera
 - Using camera for take a picture
 - Get galleries photo in storage
+- Photo Editor
 - Full components already using
 - Transaction module
 - Local transaction module
