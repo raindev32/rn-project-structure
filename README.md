@@ -30,6 +30,8 @@ HOW TO USE :
 - next build for debug version => ./gradlew installDebug
 - next build for release version => ./gradlew installRelease
 
+
+
 *note: Clone this repositories and copy/paster to your own repositories project.
 
 
