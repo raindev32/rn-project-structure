@@ -17,13 +17,18 @@ Fitur available at this project
 - Get galleries photo in storage
 - Full components already using
 - Transaction module
+- Local transaction module
 - Full module into utils
 - etc.
 
 HOW TO USE :
+- Git Pull
 - add your local.properties
 - add your .env
 - npm / yarn install
 - into dir android => ./gradlew clean
 - next build for debug version => ./gradlew installDebug
 - next build for release version => ./gradlew installRelease
+
+*note: Clone this repositories and copy/paster to your own repositories project.
+*note: file google-service.json can be changed by your own generated files.
