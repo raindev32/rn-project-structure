@@ -50,8 +50,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     borderRadius: 10,
-    width: '100%',
-    backgroundColor: color.primaryColor
+    width: '100%'
   },
   mainContainer: {
     padding: 10,
