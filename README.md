@@ -31,6 +31,7 @@ HOW TO USE :
 - next build for debug version => ./gradlew installDebug
 - next build for release version => ./gradlew installRelease
 
+
 *note: If u wanna using reactotron debuger, u need to copy some command to your bash_aliases.
 
 alias adbrev='adb reverse tcp:9090 tcp:9090'
