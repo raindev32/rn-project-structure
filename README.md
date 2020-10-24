@@ -31,6 +31,12 @@ HOW TO USE :
 - next build for debug version => ./gradlew installDebug
 - next build for release version => ./gradlew installRelease
 
+*note: If u wanna using reactotron debuger, u need to copy some command to your bash.
+$ vim ~/.bash_aliases
+alias adbrev='adb reverse tcp:9090 tcp:9090'
+Then Save.
+and typing adbrev into your terminal.
+
 *note: Clone this repositories and copy/paster to your own repositories project.
 
 *note: file google-service.json can be changed by your own generated files.
