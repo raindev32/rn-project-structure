@@ -53,19 +53,6 @@ const styles = StyleSheet.create({
     marginBottom: 20,
     borderRadius: 10,
     width: '100%'
-  },
-  textHeader: {
-    fontWeight: 'bold',
-    fontSize: 30,
-    color: color.primaryColor,
-    paddingBottom: 10,
-    paddingTop: 30
-  },
-  textDetail: {
-    fontWeight: 'bold',
-    fontSize: 15,
-    color: color.primaryColor,
-    paddingBottom: 10
   }
 })
 

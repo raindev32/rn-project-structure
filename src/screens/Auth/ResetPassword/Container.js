@@ -1,16 +1,15 @@
 import React, { Component } from 'react'
 import { BackHandler } from 'react-native'
-import color from 'theme/color'
 import Form from './Form'
 
 class Container extends Component {
-    componentDidMount () {
-      BackHandler.addEventListener('hardwareBackPress', this.handleBackButton)
-    }
+  componentDidMount () {
+    BackHandler.addEventListener('hardwareBackPress', this.handleBackButton)
+  }
 
-    componentWillUnmount () {
-      BackHandler.removeEventListener('hardwareBackPress', this.handleBackButton)
-    }
+  componentWillUnmount () {
+    BackHandler.removeEventListener('hardwareBackPress', this.handleBackButton)
+  }
 
     handleBackButton = () => {
       const { navigation } = this.props

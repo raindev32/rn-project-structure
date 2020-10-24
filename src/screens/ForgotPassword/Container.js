@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { withNavigation } from 'react-navigation'
 import {
-  Image, StyleSheet, Dimensions, ScrollView, View
+  StyleSheet, ScrollView, View
 } from 'react-native'
 
 import Form from './Form'
@@ -9,12 +9,6 @@ import Form from './Form'
 const styles = StyleSheet.create({
   container: {
     flex: 1
-  },
-  image: {
-    alignSelf: 'center',
-    height: 150,
-    width: Dimensions.get('window').width / 2,
-    marginBottom: 0
   }
 })
 

@@ -6,7 +6,6 @@ import {
   StyleSheet,
   ActivityIndicator,
   StatusBar,
-  Image,
   Platform
 } from 'react-native'
 import color from 'theme/color'
@@ -24,7 +23,6 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     backgroundColor: color.textIcons
   },
-  image: { height: 300, width: 300 },
   statusText: {
     color: color.darkPrimaryColor,
     fontSize: 16

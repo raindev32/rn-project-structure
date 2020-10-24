@@ -1,16 +1,8 @@
 import React, { Component } from 'react'
-import { StyleSheet } from 'react-native'
+
 import color from 'theme/color'
 
 import Container from './Container'
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'flex-start',
-    alignItems: 'flex-start'
-  }
-})
 
 class Address extends Component {
   static navigationOptions = () => {
@@ -47,8 +39,6 @@ class Address extends Component {
   }
 
   render () {
-    const { navigation } = this.props
-
     return (
       <Container />
     )

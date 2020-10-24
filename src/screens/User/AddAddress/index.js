@@ -1,17 +1,8 @@
 import React, { Component } from 'react'
-import { View, StyleSheet } from 'react-native'
+
 import color from 'theme/color'
 
 import Container from './Container'
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'flex-start',
-    alignItems: 'flex-start',
-    backgroundColor: color.textIcons
-  }
-})
 
 class AddAddress extends Component {
   static navigationOptions = ({ navigation }) => {

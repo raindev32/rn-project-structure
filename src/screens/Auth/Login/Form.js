@@ -77,7 +77,7 @@ class Form extends Component {
     isLoading: false
   }
 
-  onSubmit =  async (values) => {
+  onSubmit = async (values) => {
     const { error, navigation, dispatch } = this.props
     if (!error) {
       await dispatch(submit(values, navigation))

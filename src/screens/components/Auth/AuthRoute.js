@@ -12,6 +12,10 @@ import color from 'theme/color'
 import { withNavigation } from 'react-navigation'
 
 const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    paddingTop: 30
+  },
   row: {
     width: '100%',
     justifyContent: 'center',
@@ -33,9 +37,6 @@ const styles = StyleSheet.create({
     fontSize: 16,
     color: color.primaryText,
     textAlign: 'center'
-  },
-  bottomTextContainer: {
-    paddingVertical: 10
   }
 })
 
@@ -49,7 +50,7 @@ class AuthRoute extends PureComponent {
       forgot
     } = this.props
     return (
-      <View style={{ flex: 1, paddingTop: 30 }}>
+      <View style={styles.container}>
         <View style={[styles.row, styles.center]}>
           <Text style={styles.textQuestion}>{text}</Text>
           <TouchableOpacity onPress={() => navigation.navigate(route)}>

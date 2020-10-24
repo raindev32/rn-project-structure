@@ -10,8 +10,7 @@ import {
   Text,
   Button,
   Radio,
-  ListItem,
-  Icon
+  ListItem
 } from 'native-base'
 import { convertDateToTimeStamp, convertTimeStampToDate } from 'utils/time'
 import {

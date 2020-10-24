@@ -10,8 +10,6 @@ import {
   userData
 } from 'actions/auth/profile'
 
-import HeaderTitle from 'components/HeaderTitle'
-
 import Form from './Form'
 
 const styles = StyleSheet.create({
