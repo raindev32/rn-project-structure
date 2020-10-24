@@ -55,9 +55,9 @@ class Form extends Component {
   }
 
   onSubmit = async (values) => {
-    const { onSubmit, error, navigation } = this.props
+    const { error, navigation, dispatch } = this.props
     if (!error) {
-      await onSubmit(values, navigation)
+      await dispatch(changePassword(values, navigation))
     }
   }
 
@@ -155,11 +155,7 @@ const mapStateToProps = (state) => ({
   values: getFormValues('ChangePasswordForm')(state)
 })
 
-const mapDispatchToProps = (dispatch) => ({
-  onSubmit: (data, navigation) => dispatch(changePassword(data, navigation))
-})
-
 export default reduxForm({
   form: 'ChangePasswordForm',
   validate
-})(withNavigation(connect(mapStateToProps, mapDispatchToProps)(Form)))
+})(withNavigation(connect(mapStateToProps)(Form)))

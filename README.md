@@ -15,6 +15,7 @@ Fitur available at this project
 - Permissions Storage and camera
 - Using camera for take a picture
 - Get galleries photo in storage
+- Photo Editor
 - Full components already using
 - Transaction module
 - Local transaction module
@@ -31,5 +32,4 @@ HOW TO USE :
 - next build for release version => ./gradlew installRelease
 
 *note: Clone this repositories and copy/paster to your own repositories project.
-
 *note: file google-service.json can be changed by your own generated files.

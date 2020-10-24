@@ -24,8 +24,8 @@ class Container extends Component {
   }
 
   _refresh = async () => {
-    const { onRefresh } = this.props
-    await onRefresh()
+    const { dispatch } = this.props
+    await dispatch(userData())
   }
 
   render () {
@@ -61,10 +61,4 @@ const mapStateToProps = state => ({
   errorMessage: state.authStore.errorMessage
 })
 
-const mapDispatchToProps = dispatch => ({
-  onRefresh: () => {
-    dispatch(userData())
-  }
-})
-
-export default withNavigation(connect(mapStateToProps, mapDispatchToProps)(Container))
+export default withNavigation(connect(mapStateToProps)(Container))

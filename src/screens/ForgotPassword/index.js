@@ -1,10 +1,9 @@
 import React, { Component } from 'react'
 import {
-  Image, StyleSheet, Dimensions, ScrollView, View
+  StyleSheet, Dimensions
 } from 'react-native'
-// import logoPrintart from 'assets/app/logo-printart.png'
 
-import Form from './Form'
+import Container from './Container'
 
 const styles = StyleSheet.create({
   container: {
@@ -18,22 +17,12 @@ const styles = StyleSheet.create({
   }
 })
 
-class Login extends Component {
+class ForgotPassword extends Component {
   render () {
-    const { navigation } = this.props
     return (
-      <View style={styles.container}>
-        <ScrollView showsVerticalScrollIndicator={false}>
-          {/* <Image
-            source={logoPrintart}
-            resizeMode="contain"
-            style={styles.image}
-          /> */}
-          <Form navigation={navigation} />
-        </ScrollView>
-      </View>
+      <Container />
     )
   }
 }
 
-export default Login
+export default ForgotPassword

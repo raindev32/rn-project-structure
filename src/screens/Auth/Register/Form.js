@@ -77,7 +77,7 @@ class Form extends Component {
   }
 
   onSubmit = (values) => {
-    const { error, onSubmit, navigation } = this.props
+    const { error, navigation, dispatch } = this.props
     const { gender } = this.state
     if (!error) {
       const data = {
@@ -87,7 +87,7 @@ class Form extends Component {
         data.birth = convertTimeStampToDate(data.birth)
       }
       data.gender = gender
-      onSubmit(data, navigation)
+      dispatch(submit(data, navigation))
     }
   }
 
@@ -232,11 +232,7 @@ const mapStateToProps = state => ({
   errorMessage: state.authStore.errorMessage
 })
 
-const mapDispatchToProps = dispatch => ({
-  onSubmit: (data, navigation) => dispatch(submit(data, navigation))
-})
-
 export default reduxForm({
   form: 'RegisterForm',
   validate
-})(withNavigation(connect(mapStateToProps, mapDispatchToProps)(Form)))
+})(withNavigation(connect(mapStateToProps)(Form)))

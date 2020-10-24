@@ -57,10 +57,10 @@ class Form extends Component {
 
   onSubmit = async (values) => {
     const {
-      onSubmit,
       data,
       error,
-      navigation
+      navigation,
+      dispatch
     } = this.props
 
     const dataReset = {
@@ -68,7 +68,7 @@ class Form extends Component {
       ...values
     }
     if (!error) {
-      await onSubmit(dataReset, navigation)
+      await dispatch(submit(dataReset, navigation))
     }
   }
 
@@ -148,11 +148,7 @@ const mapStateToProps = state => ({
   errorMessage: state.authStore.errorMessage
 })
 
-const mapDispatchToProps = (dispatch) => ({
-  onSubmit: (data, navigation) => dispatch(submit(data, navigation))
-})
-
 export default reduxForm({
   form: 'ResetPasswordForm',
   validate
-})(withNavigation(connect(mapStateToProps, mapDispatchToProps)(Form)))
+})(withNavigation(connect(mapStateToProps)(Form)))

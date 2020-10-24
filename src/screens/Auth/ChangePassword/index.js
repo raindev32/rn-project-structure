@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
+
 import color from 'theme/color'
-import Form from './Form'
+
+import Container from './Container'
 
 class ChangePassword extends Component {
   static navigationOptions = () => {
@@ -38,7 +40,7 @@ class ChangePassword extends Component {
 
   render () {
     return (
-      <Form />
+      <Container />
     )
   }
 }
