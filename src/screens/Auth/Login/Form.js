@@ -50,8 +50,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     borderRadius: 10,
-    width: '100%',
-    backgroundColor: color.primaryColor
+    width: '100%'
   },
   mainContainer: {
     padding: 10,
@@ -78,7 +77,7 @@ class Form extends Component {
     isLoading: false
   }
 
-  onSubmit =  async (values) => {
+  onSubmit = async (values) => {
     const { error, navigation, dispatch } = this.props
     if (!error) {
       await dispatch(submit(values, navigation))

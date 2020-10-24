@@ -40,7 +40,7 @@ class Setting extends Component {
 
   render () {
     return (
-        <Container />
+      <Container />
     )
   }
 }

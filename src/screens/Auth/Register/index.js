@@ -1,25 +1,8 @@
 import React, { Component } from 'react'
-import {
-  View,
-  StyleSheet
-} from 'react-native'
 
 import color from 'theme/color'
 
 import Container from './Container'
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1
-  },
-  txtRegister: {
-    paddingVertical: 10,
-    marginTop: -50,
-    textAlign: 'center',
-    fontWeight: 'bold',
-    color: color.secondaryText
-  }
-})
 
 class Register extends Component {
   static navigationOptions = () => {
@@ -52,8 +35,6 @@ class Register extends Component {
   }
 
   render () {
-    const { navigation } = this.props
-
     return (
       <Container />
     )

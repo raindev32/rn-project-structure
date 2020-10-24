@@ -1,9 +1,6 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import {
-  ScrollView,
-  RefreshControl,
-  StyleSheet,
   Clipboard
 } from 'react-native'
 import {
@@ -18,16 +15,10 @@ import {
 import globalStyle from 'theme/style'
 // import Content from './Item'
 
-const styles = StyleSheet.create({
-  scrollView: {
-    paddingHorizontal: 10
-  }
-})
-
 class Container extends Component {
-  state = {
-    refreshing: false
-  }
+  // state = {
+  //   refreshing: false
+  // }
 
   componentDidMount () {
     this._refresh()

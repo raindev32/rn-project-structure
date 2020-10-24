@@ -20,8 +20,7 @@ const styles = StyleSheet.create({
     padding: 10
   },
   btnBottom: {
-    borderRadius: 5,
-    backgroundColor: color.primaryColor
+    borderRadius: 5
   },
   text: {
     fontSize: 16

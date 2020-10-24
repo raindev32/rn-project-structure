@@ -4,7 +4,7 @@ import AsyncStorage from '@react-native-community/async-storage'
 Reactotron
   .setAsyncStorageHandler(AsyncStorage) // AsyncStorage would either come from `react-native` or `@react-native-community/async-storage` depending on where you get it from
   .configure({
-    name: 'Print Art Mobile'
+    name: 'AwesomeApp'
   })
   .useReactNative({
     asyncStorage: false, // there are more options to the async storage.

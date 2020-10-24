@@ -52,21 +52,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     marginBottom: 20,
     borderRadius: 10,
-    width: '100%',
-    backgroundColor: color.primaryColor
-  },
-  textHeader: {
-    fontWeight: 'bold',
-    fontSize: 30,
-    color: color.primaryColor,
-    paddingBottom: 10,
-    paddingTop: 30
-  },
-  textDetail: {
-    fontWeight: 'bold',
-    fontSize: 15,
-    color: color.primaryColor,
-    paddingBottom: 10
+    width: '100%'
   }
 })
 

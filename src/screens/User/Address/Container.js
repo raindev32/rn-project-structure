@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { View, StyleSheet } from 'react-native'
-import color from 'theme/color'
 import globalStyle from 'theme/style'
 import AddressList from './AddressList'
 
