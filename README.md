@@ -30,6 +30,7 @@ HOW TO USE :
 - into dir android => ./gradlew clean
 - next build for debug version => ./gradlew installDebug
 - next build for release version => ./gradlew installRelease
+- npm / yarn start
 
 
 *note: If u wanna using reactotron debuger, u need to copy some command to your bash_aliases.
