@@ -43,7 +43,7 @@ alias adbrev='adb reverse tcp:9090 tcp:9090'
 
 ---------------------------------------------------------------------------------------------
 
-Feel free to contribute help on ios platform.
+Feel free to contribute help on ios directories because ios side is not unperfectly yet.
 
 Happy Coding.
 
