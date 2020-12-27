@@ -40,3 +40,10 @@ alias adbrev='adb reverse tcp:9090 tcp:9090'
 *note: Clone this repositories and copy/paster to your own repositories project.
 
 *note: file google-service.json can be changed by your own generated files.
+
+---------------------------------------------------------------------------------------------
+
+Feel free to contribute help on ios directories because ios side is not unperfectly yet.
+
+Happy Coding.
+
